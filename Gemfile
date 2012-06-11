@@ -8,13 +8,16 @@ group :development, :test do
 end
 
 group :production do
-  gem 'thin'
+  gem "thin", "1.3.1" --ignore-dependencies
   gem 'pg'
 end
 
 gem 'active_scaffold', '3.2.7'
 gem 'devise'
 gem 'cancan'
+gem "eventmachine", "~> 1.0.0.beta.4.1"
+gem "rack", "~> 1.4.1"
+gem "daemon", "~> 1.1.0"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -29,4 +32,3 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
