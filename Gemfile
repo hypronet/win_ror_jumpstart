@@ -7,11 +7,6 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
-  gem "thin", "1.3.1" --ignore-dependencies
-  gem 'pg'
-end
-
 gem 'active_scaffold', '3.2.7'
 gem 'devise'
 gem 'cancan'
@@ -32,3 +27,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
