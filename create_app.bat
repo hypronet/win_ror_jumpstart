@@ -31,7 +31,7 @@ echo "****"
 echo "Temporarily allowing open authorization. Change app/model/ability.rb to change this!"
 echo "****"
 copy /y ..\ability.rb .\app\models\ability.rb
-mkdir -p .\app\views\devise\menu
+mkdir .\app\views\devise\menu
 copy /y ..\_login_items.html.erb .\app\views\devise\menu
 copy /y ..\_registration_items.html.erb .\app\views\devise\menu
 :: copy the home controller and home page
