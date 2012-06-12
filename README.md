@@ -57,9 +57,9 @@ Where will this work "As Advertized"?
 =====================================
 
 ### This is tested to work on:
-OS: Windows XP, Windows 7 
-Ruby: 1.9.3.194
-database: SQLite
+* OS: Windows XP, Windows 7 
+* Ruby: 1.9.2
+* database: SQLite
 
 
 What's in the app?
