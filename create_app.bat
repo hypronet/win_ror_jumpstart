@@ -2,14 +2,15 @@
 SET APP_NAME=ams
 echo "Installing Bundler..."
 gem install bundler --no-ri --no-rdoc
-echo "Installing Ruby on Rails..."
-gem install rails -v="3.2.5"
+echo "Bundle Install..."
+bundle install --system
 echo "Creating rails app %APP_NAME%"
 rails new %APP_NAME%
 echo "Setting Gemfile..."
 copy /y Gemfile "%APP_NAME%/"
+copy /y Gemfile.lock "%APP_NAME%/"
 cd %APP_NAME%
-bundle update
+bundle install --system
 echo "Setting up active_scafold css and js..."
 move ..\app\assets\stylesheets\application.css ..\app\assets\stylesheets\application_css_bak
 copy /y ..\application.css app\assets\stylesheets\application.css
