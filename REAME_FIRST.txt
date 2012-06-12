@@ -58,16 +58,22 @@ Where will this work "As Advertized"?
 
 This is tested to work on:
 --------------------------
-RVM: 1.14.1
-Ruby: 1.9.3 (via rvm)
-OS: Mac OS X 10.7.4
-bundler: 1.1.4
+OS: Windows XP, Windows 7 
+Ruby: 1.9.3.194
 database: SQLite
 
-However, it should be quite easy to follow the set up in other
-environments.
-If you git it to work in your environment, please "fork this" 
-and save someone else the pain!
+Essential Softwares:
+--------------------
+Ruby and Devkit: http://rubyinstaller.org/downloads
+Devkit Installation Guide: https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+Heroku Toolbet: https://toolbelt.heroku.com
+
+Installation Order:
+-------------------
+1. Install Heroku
+2. Uninstall Ruby193
+3. Install Ruby193 using Installer downloaded
+4. Setup devkit and install
 
 What's in the app?
 ==================

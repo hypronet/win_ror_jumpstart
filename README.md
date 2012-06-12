@@ -57,16 +57,10 @@ Where will this work "As Advertized"?
 =====================================
 
 ### This is tested to work on:
-RVM: 1.14.1
-Ruby: 1.9.3 (via rvm)
-OS: Mac OS X 10.7.4
-bundler: 1.1.4
+OS: Windows XP, Windows 7 
+Ruby: 1.9.3.194
 database: SQLite
 
-However, it should be quite easy to follow the set up in other
-environments.
-If you git it to work in your environment, please "fork this" 
-and save someone else the pain!
 
 What's in the app?
 ------------------
