@@ -16,3 +16,7 @@ Installation Order:
 2. Uninstall Ruby1.9.2
 3. Install Ruby1.9.2 using Installer downloaded
 4. Setup devkit and install
+
+Setup Yourself:
+---------------
+1. Open Command Prompt( Run as Administrator if you have Windows 7 )

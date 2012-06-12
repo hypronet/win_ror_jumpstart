@@ -1,9 +1,11 @@
-(
 SET APP_NAME=ams
+(
 echo "Installing Bundler..."
 gem install bundler --no-ri --no-rdoc
 echo "Bundle Install..."
 bundle install --system
+sleep 2
+echo %APP_NAME%
 echo "Creating rails app %APP_NAME%"
 rails new %APP_NAME%
 echo "Setting Gemfile..."
